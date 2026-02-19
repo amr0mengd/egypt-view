@@ -1,20 +1,7 @@
 <template>
-  <div class="w-10 h-6 rounded-sm text-[8px]">
-    <router-link
-      to="#"
-      :class="{ 'bg-primary text-white underline': isActive, 'bg-white text-primary': !isActive }"
-      >EN</router-link
-    >
-    <router-link
-      to="#"
-      :class="{ 'bg-primary text-white underline': isActive, 'bg-white text-primary': !isActive }"
-      >JP</router-link
-    >
+  <div class="text-[8px] flex items-center h-6">
+    <button class="px-1 py-1.5 border border-primary bg-primary rounded-l-sm text-white underline font-bold">EN</button>
+    <button class="px-1 py-1.5 border border-primary rounded-r-sm">JP</button>
   </div>
 </template>
 
-<script>
-export default {
-  props: ['isActive'],
-}
-</script>
