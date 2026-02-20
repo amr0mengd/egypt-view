@@ -1,8 +1,8 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
-  --color-primary: #cb3233;
+	--color-primary: #cb3233;
 }
 * {
-  font-family: 'Noto Sans JP';
+	font-family: "Noto Sans JP";
 }
