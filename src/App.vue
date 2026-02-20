@@ -1,10 +1,7 @@
 <template>
-	<nav-bar class="w-full"></nav-bar>
+	<NavBar class="w-full"></NavBar>
 </template>
 
-<script>
+<script setup>
 import NavBar from "./components/NavBar.vue";
-export default {
-	components: { NavBar },
-};
 </script>

@@ -1,23 +1,21 @@
 <template>
 	<router-link
 		to="#"
-		class="text-primary text-[16px]"
+		class="text-[16px]"
 		:class="{
-			'font-black underline underline-offset-auto decoration-2': isActive,
-			'font-medium': !isActive,
+			'font-bold underline decoration-2': isActive,
+			'font-normal': !isActive,
 		}">
 		{{ text }}
 	</router-link>
 </template>
 
-<script>
-export default {
-	props: {
-		text: String,
-		isActive: {
-			type: Boolean,
-			default: false,
-		},
+<script setup>
+defineProps({
+	text: String,
+	isActive: {
+		type: Boolean,
+		default: false,
 	},
-};
+});
 </script>
