@@ -7,7 +7,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'/egypt-view/',
 	plugins: [vue(), vueDevTools(), tailwindcss()],
 	resolve: {
 		alias: {
@@ -18,4 +17,5 @@ export default defineConfig({
 		port: 8080,
 		host: true,
 	},
+	base: "/egypt-view/",
 });
