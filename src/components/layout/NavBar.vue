@@ -1,11 +1,11 @@
 <template>
 	<div id="navbar" class="text-primary container mx-auto flex items-center justify-between py-4">
-		<router-link to="/home" id="logo" class="flex items-center justify-center space-x-2">
+		<router-link to="/" id="logo" class="flex items-center justify-center space-x-2">
 			<img src="../../assets/logo.png" class="w-14" />
 			<p class="text-[32px] font-bold">{{ t("heading") }}</p>
 		</router-link>
 		<div class="flex items-center space-x-4">
-			<NavItem to="/home" text="Home" :isActive="true"></NavItem>
+			<NavItem to="/" text="Home" :isActive="true"></NavItem>
 			<ServicesDropdown />
 			<NavItem text="Gallery"></NavItem>
 			<NavItem text="About"></NavItem>
