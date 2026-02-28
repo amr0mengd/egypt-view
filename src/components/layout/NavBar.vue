@@ -5,11 +5,11 @@
 			<p class="text-[32px] font-bold">{{ t("heading") }}</p>
 		</router-link>
 		<div class="flex items-center space-x-4">
-			<NavItem to="/" :text="t('home')" :isActive="true"></NavItem>
+			<NavItem to="/" :text="t('home')"></NavItem>
 			<ServicesDropdown />
-			<NavItem :text="t('gallery')"></NavItem>
-			<NavItem :text="t('about')"></NavItem>
-			<NavItem :text="t('contact')"></NavItem>
+			<NavItem to="/gallery" :text="t('gallery')"></NavItem>
+			<NavItem to="/about" :text="t('about')"></NavItem>
+			<NavItem to="/contact" :text="t('contact')"></NavItem>
 			<div id="divider" class="h-6 w-px rounded-[5px] bg-[#D9D9D9]"></div>
 			<LanguageSwitcher />
 		</div>
