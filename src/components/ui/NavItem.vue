@@ -1,6 +1,6 @@
 <template>
 	<router-link
-		to="#"
+		:to="to"
 		class="text-[16px]"
 		:class="{
 			'font-bold underline decoration-2': isActive,
@@ -17,5 +17,6 @@ defineProps({
 		type: Boolean,
 		default: false,
 	},
+	to: String,
 });
 </script>

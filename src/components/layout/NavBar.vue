@@ -3,14 +3,14 @@
 		id="navbar"
 		class="text-primary container mx-auto flex items-center justify-between py-4">
 		<router-link
-			to="#"
+			to="/home"
 			id="logo"
 			class="flex items-center justify-center space-x-2">
-			<img src="../assets/logo.png" class="w-14" />
+			<img src="../../assets/logo.png" class="w-14" />
 			<p class="text-[32px] font-bold">Egypt View</p>
 		</router-link>
 		<div class="flex items-center space-x-4">
-			<NavItem text="Home" :isActive="true"></NavItem>
+			<NavItem to="/home" text="Home" :isActive="true"></NavItem>
 			<ServicesDropdown />
 			<NavItem text="Gallery"></NavItem>
 			<NavItem text="About"></NavItem>
@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-import NavItem from "./NavItem.vue";
-import LanguageSwitcher from "./LanguageSwitcher.vue";
-import ServicesDropdown from "./ServicesDropdown.vue";
+import NavItem from "../ui/NavItem.vue";
+import LanguageSwitcher from "../ui/LanguageSwitcher.vue";
+import ServicesDropdown from "../ui/ServicesDropdown.vue";
 </script>
