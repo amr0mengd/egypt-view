@@ -8,5 +8,18 @@
 	"tours": "ツアー",
 	"translation": "翻訳",
 	"brand": "オリジナルブランド",
-	"events": "イベント・リサーチ"
+	"events": "イベント・リサーチ",
+	"heroTitle": "エジプトビューへようこそ",
+	"heroSubtitle": "エジプトと日本を拠点とする観光・コンサルティング会社。",
+	"CTA1": "私たちについて",
+	"CTA2": "今すぐ予約",
+	"servicesHeading": "提供サービス",
+	"toursTitle": "ツアー",
+	"toursSubtitle": "日本とエジプトの国際空港からあらゆるツアーを手配いたします。",
+	"interpretationsTitle": "通訳・翻訳",
+	"interpretationsSubtitle": "通訳、翻訳、ガイド、および異文化相互理解のサポートを提供しております。",
+	"eventsTitle": "イベント・リサーチ",
+	"eventsSubtitle": "スタッフ派遣、会場手配、ケータリングなど、イベント全般にわたる総合サポートを提供いたします。",
+	"souvenirsTitle": "お土産",
+	"souvenirsSubtitle": "自社ショップにて、厳選されたオリジナル商品をご覧いただけます。"
 }
