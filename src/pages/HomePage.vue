@@ -1,5 +1,5 @@
 <template>
-	<HeroSection />
+	<HeroSection class="w-full" />
 </template>
 
 <script setup>
