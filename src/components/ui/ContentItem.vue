@@ -14,7 +14,7 @@
 		</div>
 		<div id="image" class="w-6/12">
 			<router-link :to="to">
-				<img :src="src" class="rounded-2xl" />
+				<img :src="src" class="rounded-2xl w-full" />
 			</router-link>
 		</div>
 	</div>
