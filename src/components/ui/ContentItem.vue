@@ -1,7 +1,9 @@
 <template>
 	<div class="flex justify-between" :class="{ 'flex-row-reverse': inverted }">
 		<div id="article" class="w-4/12 space-y-4">
-			<h2 class="text-[40px] font-medium">{{ title }}</h2>
+			<router-link :to="to">
+				<h2 class="text-[40px] font-medium">{{ title }}</h2>
+			</router-link>
 			<div class="space-y-8">
 				<p class="text-xl/[33px]">{{ subTitle }}</p>
 				<p class="text-xl font-medium">
@@ -14,7 +16,7 @@
 		</div>
 		<div id="image" class="w-6/12">
 			<router-link :to="to">
-				<img :src="src" class="rounded-2xl w-full" />
+				<img :src="src" class="w-full rounded-2xl" />
 			</router-link>
 		</div>
 	</div>
