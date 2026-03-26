@@ -1,11 +1,11 @@
 <template>
 	<div class="flex justify-between h-120" :class="{ 'flex-row-reverse': inverted }">
-		<div id="article" class="w-4/12 h-full space-y-4">
+		<div id="article" class="w-4/12 h-full space-y-4" :class="{'w-6/12 ':inverted}">
 			<router-link :to="to">
 				<h2 class="text-[40px] font-medium">{{ title }}</h2>
 			</router-link>
 			<div class="space-y-8">
-				<p class="text-xl/[33px]">{{ subTitle }}</p>
+				<p class="text-xl/[33px]" :class="{'w-1/2':inverted}">{{ subTitle }}</p>
 				<p class="text-xl font-medium">
 					{{ t("forMore") }}
 					<router-link :to="to" class="font-bold underline decoration-2">{{
