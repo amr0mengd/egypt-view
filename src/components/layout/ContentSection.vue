@@ -1,6 +1,8 @@
 <template>
-	<h1 class="py-2.5 text-center text-5xl font-medium">{{ t("servicesHeading") }}</h1>
-	<div class="container mx-auto py-12 space-y-18">
+	<h1 class="py-2.5 text-center text-5xl font-medium">
+		{{ t("servicesHeading") }}
+	</h1>
+	<div class="container mx-auto space-y-18 py-12">
 		<ContentItem
 			:title="t('toursTitle')"
 			:subTitle="t('toursSubtitle')"

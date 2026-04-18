@@ -1,3 +1,3 @@
 <template>
-  <p>gallery page</p>
+	<p>gallery page</p>
 </template>

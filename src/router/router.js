@@ -10,7 +10,8 @@ const GalleryPage = () => import("../pages/GalleryPage.vue");
 const AboutPage = () => import("../pages/AboutPage.vue");
 const ContactPage = () => import("../pages/ContactPage.vue");
 const ToursPage = () => import("../pages/services pages/ToursPage.vue");
-const TranslationPage = () => import("../pages/services pages/TranslationPage.vue");
+const TranslationPage = () =>
+	import("../pages/services pages/TranslationPage.vue");
 const BrandPage = () => import("../pages/services pages/BrandPage.vue");
 const EventsPage = () => import("../pages/services pages/EventsPage.vue");
 

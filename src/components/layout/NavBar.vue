@@ -1,7 +1,12 @@
 <template>
 	<div class="w-full">
-		<div id="navbar" class="text-primary container mx-auto flex items-center justify-between py-4">
-			<router-link to="/" id="logo" class="flex items-center justify-center space-x-2">
+		<div
+			id="navbar"
+			class="text-primary container mx-auto flex items-center justify-between py-4">
+			<router-link
+				to="/"
+				id="logo"
+				class="flex items-center justify-center space-x-2">
 				<img src="../../assets/logo.png" class="w-14" />
 				<p class="text-[32px] font-bold">{{ t("heading") }}</p>
 			</router-link>
