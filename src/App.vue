@@ -1,9 +1,9 @@
 <template>
-	<div class="shadow-[0_2px_10px_rgba(0,0,0,0.05)] sticky top-0">
+	<div class="sticky top-0 shadow-[0_2px_10px_rgba(0,0,0,0.05)]">
 		<NavBar class="w-full bg-white"></NavBar>
 	</div>
-	<router-view></router-view>
-  <FooterSection/>
+	<router-view class="flex-1"></router-view>
+	<FooterSection />
 </template>
 
 <script setup>

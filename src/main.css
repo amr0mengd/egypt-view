@@ -3,6 +3,13 @@
 @theme {
 	--color-primary: #cb3233;
 }
+
 * {
 	font-family: "Inter";
+}
+
+#app {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
