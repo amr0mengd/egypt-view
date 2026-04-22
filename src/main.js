@@ -13,7 +13,7 @@ const app = createApp(App);
 
 app.component("RedBlockTitle", RedBlockTitle);
 app.component("RightArrow", RightArrow);
-app.component('BasicButton', BasicButton)
+app.component("BasicButton", BasicButton);
 
 app.use(createPinia());
 app.use(router);

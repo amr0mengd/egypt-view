@@ -1,5 +1,8 @@
 <template>
-	<div id="divider" class="flex" :class="{ 'justify-center': justify === 'center' }">
+	<div
+		id="divider"
+		class="flex"
+		:class="{ 'justify-center': justify === 'center' }">
 		<hr
 			class="h-0.75 w-20 rounded-2xl"
 			:class="{
