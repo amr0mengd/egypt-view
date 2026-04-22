@@ -14,6 +14,7 @@ const TranslationPage = () =>
 	import("../pages/services pages/TranslationPage.vue");
 const BrandPage = () => import("../pages/services pages/BrandPage.vue");
 const EventsPage = () => import("../pages/services pages/EventsPage.vue");
+const TeamMember = () => import("../pages/TeamMember.vue");
 
 const router = createRouter({
 	history: createWebHashHistory(),
@@ -32,6 +33,11 @@ const router = createRouter({
 			name: "about",
 			path: "/about",
 			component: AboutPage,
+		},
+		{
+			name: "team",
+			path: "/team",
+			component: TeamMember,
 		},
 		{
 			name: "contact",
