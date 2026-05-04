@@ -8,12 +8,14 @@ import App from "./App.vue";
 import RedBlockTitle from "./components/ui/RedBlockTitle.vue";
 import RightArrow from "./components/ui/RightArrow.vue";
 import BasicButton from "./components/ui/BasicButton.vue";
+import RedCard from "./components/ui/RedCard.vue";
 
 const app = createApp(App);
 
 app.component("RedBlockTitle", RedBlockTitle);
 app.component("RightArrow", RightArrow);
 app.component("BasicButton", BasicButton);
+app.component("RedCard", RedCard);
 
 app.use(createPinia());
 app.use(router);
