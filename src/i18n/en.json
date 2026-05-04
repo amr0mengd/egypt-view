@@ -72,5 +72,15 @@
 	"website1Paragraph": "Primary digital Archive for Egyptian heritage.",
 	"website2": "World Walker EN/JP",
 	"website2Paragraph": "Cross-border travel consultancy and lifestyle guide.",
-	"coverage": "Coverage"
+	"coverage": "Coverage",
+	"getInTouch": "GET IN TOUCH",
+	"contactUs": "Contact Us",
+	"talk": "We're Ready, Let's Talk.",
+	"yourName": "Your Name:",
+	"name": "Name",
+	"emailAddress": "Email Address:",
+	"emailExample": "example@example.com",
+	"message": "Message:",
+	"yourMessage": "How can we help you curate your journey?",
+	"contactInfo": "Contact Info"
 }
