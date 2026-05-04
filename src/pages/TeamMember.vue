@@ -1,9 +1,7 @@
 <template>
 	<div id="heroSection"><img src="" alt="" /></div>
 	<div id="Content" class="container mx-auto space-y-18 pt-8 pb-10">
-		<div
-			id="DetailCard"
-			class="bg-primary/10 border-primary space-y-10 rounded-2xl border-2 px-16 py-6">
+		<RedCard>
 			<div id="photo&name" class="flex items-center space-x-8">
 				<img
 					src="../assets/hekmat.jpg"
@@ -115,7 +113,7 @@
 						class="flex w-full items-center space-x-4 rounded-2xl bg-white p-4"></div>
 				</div>
 			</div>
-		</div>
+		</RedCard>
 		<div id="BackButton" class="text-center">
 			<BasicButton :inverted="true" class="border-primary border-2" to="/about"
 				><span class="inline-block scale-x-[-1]">&#10140;</span> Back to
