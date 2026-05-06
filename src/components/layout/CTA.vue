@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="bg-primary relative flex flex-col items-center justify-center overflow-hidden rounded-2xl py-10">
+		class="bg-primary relative container mx-auto mb-10 flex flex-col items-center justify-center overflow-hidden rounded-2xl py-10">
 		<div class="space-y-4 text-center text-white">
 			<h2 class="text-[40px] font-medium">{{ t("explore") }}</h2>
 			<p class="text-xl font-medium">{{ t("adventure") }}</p>
