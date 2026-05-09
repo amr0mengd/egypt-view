@@ -1,6 +1,6 @@
 <template>
-	<div class="relative" @mouseleave="toggleOpen">
-		<div class="flex items-center" @mouseenter="toggleOpen">
+	<div class="relative" @click="toggleOpen">
+		<div class="flex items-center hover:cursor-pointer">
 			<p class="text-[16px]">{{ t("services") }}</p>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -10,6 +10,7 @@
 			</svg>
 		</div>
 		<div
+      @mouseleave="toggleOpen"
 			:class="{ hidden: !isDropdownOpen }"
 			class="absolute left-1/2 flex -translate-x-1/2 cursor-pointer flex-col rounded-xl bg-white text-center text-xs text-nowrap drop-shadow-lg">
 			<router-link
