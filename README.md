@@ -42,3 +42,18 @@ npm run build
 ```sh
 npm run lint
 ```
+* home page => hero section => remove router link from the hero image
+* don't use css ids
+* wassa3 el denia
+* ServicesDropdown => add toggleOpen to every route call and move it from the parent dev to the first child
+* ServicesDropdown => add <div v-if="isDropdownOpen" class="fixed inset-0 z-10" @click="toggleOpen" /> => z-20 on the service parent div, to make the dropdown toggle when click outside
+* every route change should scroll up
+* add router scroll behaviour top 0
+* add egypt-view as baseURL only in production, use vite mode to set it in vite config
+* home page => Services section => labels are links but span across the entire div, change that and add a hover effect to the labels
+* Meet Our Team add hekmat photo
+* Contact Info research if should be links or not
+* remove Coverage from team
+* add v-bind="$attrs" for each svgicon and defineOptions({ inheritAttrs: false }); for the iconsvg.vue
+* send every IconSVG the classes it needs from the parent
+-
