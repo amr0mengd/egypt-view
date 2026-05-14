@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory} from "vue-router";
+import { createRouter, createWebHistory} from "vue-router";
 
 // this import method loads every imported component initially
 import HomePage from "@/pages/HomePage.vue";
@@ -17,7 +17,7 @@ const EventsPage = () => import("../pages/services pages/EventsPage.vue");
 const TeamMember = () => import("../pages/TeamMember.vue");
 
 const router = createRouter({
-	history: createWebHashHistory(),
+	history: createWebHistory(import.meta.env.BASE_URL),
 	routes: [
 		{
 			name: "home",
