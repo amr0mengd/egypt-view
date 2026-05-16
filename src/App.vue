@@ -1,7 +1,5 @@
 <template>
-	<div class="sticky top-0 shadow-[0_2px_10px_rgba(0,0,0,0.05)]">
-		<NavBar class="w-full bg-white"></NavBar>
-	</div>
+	<NavBar></NavBar>
 	<router-view class="flex-1"></router-view>
 	<FooterSection />
 </template>

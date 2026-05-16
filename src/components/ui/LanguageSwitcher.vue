@@ -17,7 +17,9 @@
 
 <script setup>
 import { useI18n } from "vue-i18n";
+
 const { locale } = useI18n({ useScope: "global" });
+
 function setLang(lang) {
 	locale.value = lang;
 }

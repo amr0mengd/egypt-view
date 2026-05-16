@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory} from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
 // this import method loads every imported component initially
 import HomePage from "@/pages/HomePage.vue";
@@ -65,6 +65,9 @@ const router = createRouter({
 			component: EventsPage,
 		},
 	],
+	scrollBehavior() {
+		return { top: 0 };
+	},
 });
 
 export default router;

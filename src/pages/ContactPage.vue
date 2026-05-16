@@ -2,10 +2,15 @@
 	<RedHero :smallHead="t('getInTouch')" :Headline="t('contactUs')" />
 	<RedCard class="container mx-auto pt-8 pb-14">
 		<div class="flex space-x-16">
-			<div id="let's talk" class="w-full space-y-6">
+			<!-- let's talk section -->
+			<div class="w-full space-y-6">
 				<RedBlockTitle :title="t('talk')" />
 				<form @submit.prevent class="space-y-4">
-					<ContactForm id="name" type="text" :label="t('yourName')" :placeholder="t('name')" />
+					<ContactForm
+						id="name"
+						type="text"
+						:label="t('yourName')"
+						:placeholder="t('name')" />
 					<ContactForm
 						id="emailAddress"
 						type="email"
@@ -22,7 +27,8 @@
 					</button>
 				</form>
 			</div>
-			<div id="info" class="w-full space-y-6">
+			<!-- contact info section -->
+			<div class="w-full space-y-6">
 				<RedBlockTitle :title="t('contactInfo')" />
 				<div class="w-fit space-y-6">
 					<h2 class="mb-0.5 text-[16px] font-semibold tracking-[0.7px]">
@@ -55,7 +61,7 @@
 						<a
 							target="_blank"
 							href="mailto:info@egypt-view.com"
-							class="text-primary w-fit flex items-center font-medium hover:underline"
+							class="text-primary flex w-fit items-center font-medium hover:underline"
 							><span class="mr-1"
 								><svg
 									width="20"
@@ -70,7 +76,7 @@
 							>{{ t("egyptViewEmail") }}</a
 						>
 					</div>
-					<div class="space-y-0.5 w-fit">
+					<div class="w-fit space-y-0.5">
 						<h2 class="text-[16px] font-semibold tracking-[0.7px]">
 							{{ t("callUs") }}
 						</h2>
@@ -165,7 +171,7 @@
 					<a
 						target="_blank"
 						href="https://wa.me/201063924760"
-						class="text-primary w-fit hover:underline flex items-center font-medium">
+						class="text-primary flex w-fit items-center font-medium hover:underline">
 						<span class="mr-1"
 							><svg
 								width="20"
@@ -188,5 +194,6 @@
 <script setup>
 import ContactForm from "@/components/ui/ContactForm.vue";
 import { useI18n } from "vue-i18n";
+
 const { t } = useI18n();
 </script>

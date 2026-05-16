@@ -23,5 +23,6 @@
 <script setup>
 import CTA from "@/components/layout/CTA.vue";
 import { useI18n } from "vue-i18n";
+
 const { t } = useI18n();
 </script>

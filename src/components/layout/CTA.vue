@@ -8,15 +8,17 @@
 		<BasicButton :inverted="true" to="contact" class="mt-10 bg-white/90"
 			>Book Now</BasicButton
 		>
-		<IconSVG :name="svg" class="absolute -right-6 -bottom-12" />
+		<IconSVG :name="svg" class="absolute right-0 bottom-0 opacity-25" />
 	</div>
 </template>
 
 <script setup>
 import { useI18n } from "vue-i18n";
 import IconSVG from "../ui/IconSVG.vue";
-const { t } = useI18n();
+
 defineProps({
 	svg: String,
 });
+
+const { t } = useI18n();
 </script>

@@ -1,7 +1,8 @@
 <template>
 	<RedHero :smallHead="t('ourServices')" :Headline="t('tours&services')" />
 	<RedCard>
-		<div id="arrangement" class="space-y-2">
+		<!-- arrangement section -->
+		<div class="space-y-2">
 			<RedBlockTitle :title="t('toursTitle1')" />
 			<div class="space-y-1">
 				<h4 class="text-xl text-[#555555]">{{ t("arrangement") }}</h4>
@@ -12,15 +13,18 @@
 				</div>
 			</div>
 		</div>
-		<div id="support" class="space-y-2">
+		<!-- support section -->
+		<div class="space-y-2">
 			<RedBlockTitle :title="t('toursTitle2')" />
 			<h4 class="text-xl font-medium text-[#555555]">{{ t("support") }}</h4>
 		</div>
-		<div id="cruise" class="space-y-2">
+		<!-- cruise section -->
+		<div class="space-y-2">
 			<RedBlockTitle :title="t('toursTitle3')" />
 			<h4 class="text-xl font-medium text-[#555555]">{{ t("cruise") }}</h4>
 		</div>
-		<div id="plans" class="space-y-2">
+		<!-- plans section -->
+		<div class="space-y-2">
 			<RedBlockTitle :title="t('toursTitle4')" />
 			<div class="space-y-0.5">
 				<p><RightArrow /> {{ t("plans1") }}</p>
@@ -30,7 +34,8 @@
 				<p><RightArrow /> {{ t("plans5") }}</p>
 			</div>
 		</div>
-		<div id="maniac" class="space-y-2">
+		<!-- maniac section -->
+		<div class="space-y-2">
 			<RedBlockTitle :title="t('toursTitle5')" />
 			<h4 class="text-xl font-medium text-[#555555]">{{ t("maniac") }}</h4>
 		</div>
@@ -41,5 +46,6 @@
 <script setup>
 import CTA from "@/components/layout/CTA.vue";
 import { useI18n } from "vue-i18n";
+
 const { t } = useI18n();
 </script>
